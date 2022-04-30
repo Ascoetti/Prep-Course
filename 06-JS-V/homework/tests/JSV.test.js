@@ -5,7 +5,8 @@ const {
 	agregarStringInvertida,
 	crearInstanciaPersona,
 	agregarMetodo,
-	Persona
+	Persona,
+	classpersona
 } = require('../homework');
 
 describe('crearUsuario()', function() {
@@ -38,6 +39,8 @@ describe('agregarStringInvertida(StringPrototype)', function(){
 		expect(str.reverse()).toBe('olleH');
 	});
 });
+
+
 
 describe('crearInstanciaPersona()', function() {
 	it('should return a new instance of Persona', function() {
