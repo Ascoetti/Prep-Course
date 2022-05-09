@@ -31,7 +31,7 @@ function sumarArray(numeros, cb) {
   var suma = 0
   numeros.reduce(function(acc,elemento){
     suma = acc + elemento;
-    return suma;
+    return suma;  
   })
   cb(suma);
 }
